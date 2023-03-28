@@ -1,0 +1,7 @@
+---
+name: get_groups
+pack: arubacentral
+description: Get an array of all groups from Aruba Central
+runner_type: python-script
+entry_point: get_groups.py
+enabled: true

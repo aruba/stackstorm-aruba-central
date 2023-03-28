@@ -1,0 +1,6 @@
+---
+name: alarms-2-snow
+description: A workflow for getting realtime alarms into a mongo database.
+runner_type: orquesta
+entry_point: workflows/alarms-2-snow.yaml
+enabled: true

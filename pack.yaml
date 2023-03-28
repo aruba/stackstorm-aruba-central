@@ -1,0 +1,14 @@
+---
+ref: arubacentral
+name: arubacentral
+description: Aruba Central Integration Pack
+keywords:
+  - Wired
+  - Wireless
+  - Infrastructure Management
+  - Automation
+version: 0.1.0
+python_versions:
+  - "3"
+author: Rick Kauffman
+email: rick@rickkauffman.com

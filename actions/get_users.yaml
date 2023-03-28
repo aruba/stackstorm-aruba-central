@@ -1,0 +1,7 @@
+---
+name: get_users
+pack: arubacentral
+description: Get an array of all account users from Aruba Central
+runner_type: python-script
+entry_point: get_users.py
+enabled: true

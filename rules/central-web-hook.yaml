@@ -1,0 +1,12 @@
+---
+name: "central-web-hook"
+description: "A webhook to handle messages from aruba central`."
+enabled: false
+
+trigger:
+  type: "core.st2.webhook"
+  parameters:
+    url: "central"
+
+action:
+  ref: "arubacentral.get_groups"

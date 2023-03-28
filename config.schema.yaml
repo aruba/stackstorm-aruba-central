@@ -1,0 +1,30 @@
+---
+base_url:
+  description: "baseurl from arubacentral account"
+  type: "string"
+  secret: false
+  required: true
+username:
+  description: "Aruba Central Username"
+  type: "string"
+  required: true
+password:
+  description: "Aruba Central Password"
+  type: "string"
+  secret: true
+  required: true
+client_secret:
+  description: "Aruba Central client_id "
+  type: "string"
+  secret: true
+  required: true
+client_id:
+  description: "Aruba Central client_secret"
+  type: "string"
+  secret: true
+  required: true
+customer_id:
+  description: "Aruba Central customer_id"
+  type: "string"
+  secret: true
+  required: true

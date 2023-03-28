@@ -1,0 +1,14 @@
+---
+name: delete_groups
+pack: arubacentral
+description: Delete a group in aruba central
+runner_type: python-script
+entry_point: delete_groups.py
+enabled: true
+parameters:
+  group_name:
+    type: "string"
+    description: "The volume name"
+    required: true
+    position: 1
+  

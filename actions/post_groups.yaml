@@ -1,0 +1,28 @@
+---
+name: post_groups
+pack: arubacentral
+description: Create a group in aruba central
+runner_type: python-script
+entry_point: post_groups.py
+enabled: true
+parameters:
+  group_name:
+    type: "string"
+    description: "The volume name"
+    required: true
+    position: 1
+  group_password:
+    type: "string"
+    description: "CPG string"
+    required: true
+    position: 2
+  wired_template:
+    type: boolean
+    description: use wired template switch
+    default: false
+    position: 3
+  wireless_template:
+    type: boolean
+    description: use wireless template switch
+    default: false
+    position: 4
